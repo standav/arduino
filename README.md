@@ -1,4 +1,3 @@
-# arduino
 # Arduino IDE a práce s HW Arduino
 ## Probraná teorie
   - Instalace IDE
