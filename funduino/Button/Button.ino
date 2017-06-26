@@ -4,7 +4,8 @@ char BUTT = A1;
 void setup()
 {
   pinMode(LED, OUTPUT);
-  pinMode(BUTT, INPUT); // A1 jako vstup (zkratujte jumper J2 - jinak chybi PullUp rezistor)
+  // pinMode(BUTT, INPUT); // A1 jako vstup (zkratujte jumper J2 - jinak chybi PullUp rezistor)
+  pinMode(BUTT, INPUT_PULLUP); // nebo pouzijeme interni pullup
 }
 
 void loop()
