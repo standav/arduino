@@ -30,7 +30,9 @@ Ovládaní zobrazovačů:
 
 (první Byte – data rozsvícených segmentů – rozsvícení LOW, vypnutí HIGH)
 
-### 3. Reset – resetuje modul Arduino (nikoliv Multi-function Shield)
+### 3. Reset
+
+Resetuje modul Arduino (nikoliv Multi-function Shield)
 
 ### 4. Signalizační LED (rozsvícení LOW, vypnutí HIGH)
 
@@ -42,7 +44,9 @@ Popis LED (směrem shora)
 
 ### 5. Piezo-bzučák pasivní – připojen k pinu 3 (PWM)
 
-### 6. Propojka (jumper) – připojuje Pull Up rezistor 10 kΩ na vstup A4 (vyvedeno na střední pin konektoru 7b)
+### 6. Propojka (jumper)
+
+Připojuje PullUp rezistor 10 kΩ na vstup A4 (vyvedeno na střední pin konektoru 7b)
 
 ### 7. Konektor pro připojení čidla IR (7a) a tepelných čidel Dallas 18B20 a LM35 (7b)
 
