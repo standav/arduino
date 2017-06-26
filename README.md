@@ -30,6 +30,15 @@ Ovládaní zobrazovačů:
 
 (první Byte – data rozsvícených segmentů – rozsvícení LOW, vypnutí HIGH)
 
+![Displej](http://kabinet.fyzika.net/dilna/ARDUINO/img/Byte.gif)
+
+V druhém Byte se zapisuje adresa zobrazovače (zleva):
+* první	 – 	××××0001
+* druhý	 – 	××××0010
+* třetí	 – 	××××0100
+* čtvrtý	 – 	××××1000
+
+
 ### 3. Reset
 
 Resetuje modul Arduino (nikoliv Multi-function Shield)
