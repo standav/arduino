@@ -30,7 +30,8 @@ Ovládaní zobrazovačů:
 
 (první Byte – data rozsvícených segmentů – rozsvícení LOW, vypnutí HIGH)
 
-![Displej](http://kabinet.fyzika.net/dilna/ARDUINO/img/Byte.gif)
+![Displej1](http://kabinet.fyzika.net/dilna/ARDUINO/img/Byte.gif)
+![Displej2](http://kabinet.fyzika.net/dilna/ARDUINO/img/segment.gif)
 
 V druhém Byte se zapisuje adresa zobrazovače (zleva):
 * první	 – 	××××0001
