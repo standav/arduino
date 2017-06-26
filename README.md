@@ -9,7 +9,7 @@
 ## Zapojení Funduino (Experimental shield)
 ![Funduino](http://kabinet.fyzika.net/dilna/ARDUINO/img/multi-shield.png)
 
-1. Konektor pro modul Bluetooth APC220 (nebo Voice Recognification Module)
+### 1. Konektor pro modul Bluetooth APC220 (nebo Voice Recognification Module)
 
 Popis (směrem shora)
 
