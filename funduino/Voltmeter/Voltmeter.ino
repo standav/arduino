@@ -35,12 +35,12 @@ void display()
 
 void loop()
 {
-  float vol = analogRead(A0)*(4.97 / 1023);   // nacte dohnotu z A0 a prevede na Volty
-  rT = (int)(vol*1000);      // vyrobi 4-ciferne cislo
-  dbuff[0]= rT/1000;       // pocet tisicu na 1 zobrazovac
-  dbuff[1]= rT%1000/100;   // pocet stovek na 2 zobrazovac
-  dbuff[2]= rT%100/10;     // pocet desitek na 3 zobrazovac
-  dbuff[3]= rT%10;         // pocet jednotek na 4 zobrazovac
+  float vol = analogRead(A0)*(4.97 / 1023);   // prevod hodnoty z A0 na V
+  rT = (int)(vol*1000);       // vyrobi 4-ciferne cislo
+  dbuff[0]= rT/1000;          // pocet tisicu na 1 zobrazovac
+  dbuff[1]= rT%1000/100;      // pocet stovek na 2 zobrazovac
+  dbuff[2]= rT%100/10;        // pocet desitek na 3 zobrazovac
+  dbuff[3]= rT%10;            // pocet jednotek na 4 zobrazovac
 
   for(char time = 0; time < 20; time++)  // zapisovanim stejne hodnoty se to zdrzi a pritom neblikaji zobrazovace
   {
