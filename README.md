@@ -8,6 +8,6 @@
 ## Další zdroje
 - [EduShield](https://github.com/arduino-edushield/edushield)
   - [Nahrání firmware do EduShieldu](https://iotta.cz/nahrani-firmware-do-edushieldu/)
-- [Arduino Wiki (Katedra obvodů ČVUT FEL](http://amber.feld.cvut.cz/wiki/bmiwiki/doku.php?id=education:arduino)
+- [Arduino Wiki (Katedra obvodů ČVUT FEL)](http://amber.feld.cvut.cz/wiki/bmiwiki/doku.php?id=education:arduino)
 
 
